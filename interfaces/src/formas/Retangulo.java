@@ -1,6 +1,6 @@
 package formas;
 
-public final class Retangulo extends Forma implements FormaServices{
+public final class Retangulo extends Forma{
 	
 	private Double largura;
 	private Double altura;

@@ -1,6 +1,6 @@
 package formas;
 
-public abstract class Forma {
+public abstract class Forma implements FormaServices {
 	private Color color;
 
 	public Forma() {
@@ -19,5 +19,4 @@ public abstract class Forma {
 	public void setColor(Color color) {
 		this.color = color;
 	}
-	public abstract Double  area();
 }

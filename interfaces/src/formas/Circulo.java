@@ -1,7 +1,7 @@
 package formas;
 
 
-public final class Circulo extends Forma implements FormaServices {
+public final class Circulo extends Forma{
 	
 	private Double raio;
 
